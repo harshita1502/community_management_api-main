@@ -5,7 +5,7 @@ const { Member } = require('../member/member.model');
 let Validator = require('validatorjs');
 
 
-
+//Create
 async function createCommunity(req, res) {
     try {
         const { name } = req.body;
